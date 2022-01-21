@@ -1,0 +1,500 @@
+   93  git show 16a377e
+   94  git show 69b44a6
+   95  git show 69b5a46
+   96  git show changed3
+   97  git show HEAD
+   98  rm file2.txt
+   99  git status
+  100  git add file2.txt
+  101  git status
+  102  git commit -m "removedf2"
+  103  git relog
+  104  git reflog
+  105   git ls-files
+  106  ls
+  107  ls -a
+  108  cp file1.txt file2.txt
+  109  ls
+  110  git status
+  111  git add file2.txt
+  112  git status
+  113  git commit -m "added file2."
+  114  git reflog
+  115  git commit --"opened added file2 commit"
+  116  git commit --"amend"
+  117  git reflog
+  118  git status
+  119  mkdir logs
+  120  echo "heloo in logs" >> logs/file4.txt
+  121  git status
+  122  echo logs/> .gitignore
+  123  code .gitignore
+  124  git commit --"add git ignore"
+  125  git add .gitignore
+  126  git status
+  127  git commit --"add git ignore"
+  128  git commit -m "add git ignore"
+  129  ls
+  130  git ls-files
+  131  git rm --cached -r logs/
+  132  git reflogs
+  133  git reflog
+  134  ls
+  135  git status
+  136  git diff --staged
+  137  git diff --commited
+  138  git diff -h
+  139  cd project
+  140  cd day1
+  141  mkdir project
+  142  mkdir pro
+  143  cd project
+  144  pwd
+  145  cd Users
+  146  ls
+  147  cd..
+  148  cd.
+  149  git ls -files
+  150  git status
+  151  git init
+  152  cd C:\Users\ADMIN\project\day1
+  153  cd C:\Users
+  154  pwd
+  155  ls
+  156  cd ADMIN
+  157  pwd
+  158  ls
+  159  cd project
+  160  ls
+  161  cd day1
+  162  git status
+  163  git reflog
+  164  git add LICENSE
+  165  git add *.txt
+  166  git status
+  167  git commit -m "All files added with star"
+  168  git reflog
+  169  code file1.txt
+  170  git diff
+  171  git status
+  172  code file2.txt
+  173  git status
+  174  git add *.txt
+  175  git status -s
+  176  git commit -m "files changed file1 and file2"
+  177  git reflog
+  178  git config --global diff.tool vscode
+  179  git config --global diff.tool.vscode.cmd "code --wait"
+  180  git config --global diff.tool.vscode.cmd "code --wait -diff $LOCAL $REMOTE"
+  181  git config --global -e
+  182  notepad file5.txt
+  183  git difftool --staged
+  184  git difftool
+  185  git diff
+  186  git difftool
+  187  git status
+  188  git add file5.txt
+  189  git difftool
+  190  git status
+  191  git difftool --staged
+  192  pwd
+  193  cd;\Users
+  194  pwd
+  195  cd project
+  196  cd day1
+  197  git status
+  198  git commit -m "used to see differences"
+  199  git reflog
+  200  git log
+  201  git log --reverse
+  202  git log --online
+  203  git log --oneline
+  204  git show a
+  205  git show a0a4
+  206  git show HEAD~ 4
+  207  git show HEAD~4
+  208  git show HEAD~4:.gitignore
+  209  git ls-tree
+  210  git ls-tree HEAD
+  211  git status
+  212  git add logs
+  213  git add -f logs
+  214  git status
+  215  git commit -m "adding logs"
+  216  git ls-tree head
+  217  git show 689ff7ff
+  218  git show 333c1
+  219  git show 5ccb7
+  220  git show file4.txt
+  221  git show 689ff7ff file4.txt
+  222  notepad file1.txt
+  223  notepad file2.txt
+  224  code file2.txt
+  225  notepad file3.txt
+  226  git status -s
+  227  git add file3.txt
+  228  git status -s
+  229  notepad file3.txt
+  230  git status -s
+  231  git restore --staged file3.txt
+  232  notepad file3.txt
+  233  git status -s
+  234  git status 
+  235  git add file3.txt
+  236  git status -s
+  237  git commit -m "used restore"
+  238  git clean
+  239  git clean -d logs
+  240  git clean -fd logs
+  241  git status -s
+  242  git status 
+  243  git ls-tree head
+  244  git clean -fd 689ff7
+  245  git ls-tree head
+  246  notepad license.txt
+  247  git status
+  248  git clean
+  249  git clean -f
+  250  ls
+  251  git clean -fd
+  252  ls
+  253  git clean -fd license.ttx
+  254  ls
+  255  git status
+  256  git add license.txt
+  257  git status -s
+  258  git clean -fd 
+  259  git status -s
+  260  git commit -m license
+  261  git reflog
+  262  git rm license.txt
+  263  git status -s
+  264  git commit -m "deleted"
+  265  git reflog
+  266  git log
+  267  git ls-tree
+  268  git ls-tree --full-tree
+  269  git ls-tree -d
+  270  git ls-tree HEAD
+  271  git log --oneline
+  272  git restore --source=HEAD~1 license.txt
+  273  git status -s
+  274  git commit -m "license added again"
+  275  git add license.txt
+  276  git commit -m "license added again"
+  277  git ls-tree
+  278  git ls-tree head
+  279  git status -s
+  280  git add .
+  281  git status -s
+  282  git commit -m"changed all"
+  283  git ls-tree head
+  284  git restore --source=HEAD~1 license.txt
+  285  git restore --source=HEAD~1 .
+  286  git status -s
+  287  git add .
+  288  git commit -m "again restored"
+  289  git status -s
+  290  git ls-tree head
+  291  git add logs
+  292  git status -s
+  293  git status
+  294  git add logs
+  295  git add -f logs
+  296  git status -s
+  297  git commit -m"added logs again"
+  298  git ls-tree head
+  299  git show 689ff7ff
+  300  git show 333c1
+  301  git show aa4ec2
+  302  git log
+  303  git branch
+  304  git branch help
+  305  git branch -help
+  306  git show head
+  307  git reflog
+  308  git show fe558b7^
+  309  git head^
+  310  git show head^
+  311  git ls
+  312  git ls-tree
+  313  git ls-tree Head
+  314  git ls-tree -r Head
+  315  git ls-tree --full-tree Head
+  316  git ls-tree --name-only Head
+  317  git ls-tree Head^
+  318  git ls-tree Head
+  319  git ls-tree Head file4.txt
+  320  git ls-tree Head logs
+  321  git ls-tree Head file5.txt
+  322  git show file5.txt
+  323  code file5.txt
+  324  git ls-tree Head logs/
+  325  git show 29462
+  326  git ls-tree Head 
+  327  gitt show 100644
+  328  gitt show 0e89ff7
+  329  git show 100644
+  330  git show 0e89ff7
+  331  git show 0e65f
+  332  git log -1
+  333  git log -p
+  334  git branch
+  335  cat .git/head
+  336  ls -la .git/refs/heads
+  337  git checkout help
+  338  git branch
+  339  cat .git/head
+  340  pwd
+  341  ls
+  342  git status
+  343  git commit -am "added in new branch"
+  344  git add help.txt
+  345  git commit -m "added in new branch"
+  346  git log --oneline
+  347  git reflog
+  348  git log 
+  349  git checkout master
+  350  git reflog
+  351  git head
+  352  cat .git/head
+  353  git branch help
+  354  git branch 
+  355  git checkout help
+  356  git reflog
+  357  git logs -oneline
+  358  git log -oneline
+  359  git log --oneline
+  360  ls
+  361  code help.txt
+  362  git checkout master
+  363  ls
+  364  code help.txt
+  365  ls
+  366  code web.html
+  367  git status
+  368  git add .
+  369  git commit -m "html css added"
+  370  git checkout help
+  371  ls
+  372  git checkout master
+  373  git checkout help
+  374  ls
+  375  code file4.txt
+  376  git status
+  377  code file5.txt
+  378  git status
+  379  git add file5.txt
+  380  git commit -m "change done in file5 @help -b"
+  381  ls
+  382  code file5.txt 
+  383  git checkout master
+  384  ls
+  385  code file5.txt 
+  386  git checkout help
+  387  code file5.txt 
+  388  git diff master..help
+  389  git branch -m master2
+  390  git branch
+  391  git checkout -b master3
+  392  git checkout master
+  393  git branch -d master3
+  394  git branch -D master3
+  395  git checkout -b master3
+  396  ls
+  397  git checkout master2
+  398  ls
+  399  git checkout -b master4
+  400  ls
+  401  cd .git/head
+  402  cat .git/head
+  403  git branch -D master3
+  404  git branch 
+  405  git branch -D master4
+  406  git checkout master
+  407  git branch -D master4
+  408  git branch 
+  409  git branch 
+  410  git merge master2
+  411  git branch 
+  412  git status
+  413  git commit -am "after merged"
+  414  notepad help.txt
+  415  mv help.txt file6.txt
+  416  rm license.txt
+  417  git status
+  418  git commit -am "after some changes"
+  419  it reflog --oneline
+  420  git reflog --oneline
+  421  git reflog 3
+  422  git reflog -3
+  423  exit
+  424  pwd
+  425  cd c:\ Users
+  426  cd c: Users
+  427  cd Users
+  428  ls
+  429  cd c:\Users
+  430  ls
+  431  cd ADMIN
+  432  cd project
+  433  cd day1
+  434  git branch
+  435  git clone "https://github.com/bradtraversy/50projects50days/tree/master/animated-countdown"
+  436  git status
+  437  git add file6.txt
+  438  git commit -m "day3 added a file"
+  439  git status
+  440  git remote
+  441  git remote add "https://github.com/hrushikesh2000"
+  442  git remote add origin "https://github.com/hrushikesh2000"
+  443  git remote -v
+  444  git push help
+  445  git push --help
+  446  git push -u origin master
+  447  git remote add origin "https://github.com/hrushikesh2000/trail"
+  448  git remote rm "https://github.com/hrushikesh2000/trail"
+  449  git remote rm origin "https://github.com/hrushikesh2000"
+  450  git remote remove origin
+  451  git remote add origin "https://github.com/hrushikesh2000/trail"
+  452  git push -u origin master
+  453  git branch
+  454  git branch -r
+  455  git branch -a
+  456  git remote remove origin
+  457  git remote add origin "https://github.com/hrushikesh2000/hrushi"
+  458  git push -u origin master
+  459  git reflog --oneline
+  460  git reflog --oneline -5
+  461  cd..
+  462  cd ..
+  463  mkdir docker
+  464  cd docker
+  465  cd ..
+  466  rm docker
+  467  git remove docker
+  468  git clone https://github.com/matthewvarga/nginx-docker-webapps.git docker
+  469  ls
+  470  cd docker
+  471  ls
+  472  ls
+  473  cd ..
+  474  git clone https://github.com/docker-training/webapp.git docker
+  475  ls
+  476  git show head
+  477  cat .git/head
+  478  cd day1
+  479  cat .git/head
+  480  git reflog --oneline -2
+  481  git branch
+  482  git remote
+  483  ls
+  484  cd file.txt
+  485  show file.txt
+  486  code file.txt
+  487  git status
+  488  code file1.txt
+  489  git status
+  490  git commit -am "som changes"
+  491  git status
+  492  git reflog --oneline -2
+  493  cat .git/config
+  494  code .git/config
+  495  git fetch origin
+  496  git commit -am "check Fetch"
+  497  git fetch origin
+  498  git fetch origin
+  499  git fetch origin  master
+  500  gir log --oneline -5
+  501  git log --oneline -5
+  502  git reflog --oneline -5
+  503  git remote
+  504  git remote -help
+  505  git log file2.txt
+  506  git blame file2.txt
+  507  git tag v1.0
+  508  git reflog --oneline -5
+  509* git tag -d to
+  510  git reflog --oneline -5
+  511  git tag "v to check fetch"
+  512  git tag tocheckfetch
+  513  git reflog --oneline -5
+  514  git tag -d tocheckfetch
+  515  git reflog --oneline -5
+  516  git log --oneline -5 origin
+  517  git log --oneline -5 origin/master
+  518  git log --oneline  origin/master
+  519  git reflog --oneline -5
+  520  git log --oneline  master/origin
+  521  git diff origin/master..master
+  522  git push
+  523  git fetch origin
+  524  git merge origin master
+  525  git pull origin master
+  526  cat .gitignore/head
+  527  cat .git/head
+  528  git reflog --oneline -3
+  529  git push
+  530  git push origin master
+  531  git push
+  532  git pull
+  533  git push
+  534  git pull origin master
+  535  git push
+  536  git commit -am "file2 prob"
+  537  git pull origin master
+  538  git push
+  539  git diff master..origin
+  540  git diff master--origin
+  541  git commit -am "file2 prob1"
+  542  git push
+  543  git pull
+  544  git commit -am "file3 dont change"
+  545  git push
+  546  git reflog --oneline -6
+  547  git log --oneline origin/master
+  548  git fetch
+  549  git log --oneline origin/master
+  550  git fetch
+  551  git pull
+  552  git status
+  553  git status
+  554  git commit -am "file5 dont change"
+  555  git fetch
+  556  git fetch origin master
+  557  git fetch master
+  558  git fetch origin
+  559  git status
+  560  git commit -am "file5 dont change again"
+  561  git fetch origin master
+  562  git log --oneline origin/master
+  563  git fetch origin
+  564  git pull 
+  565  git push
+  566  git pull 
+  567  git status
+  568  git branch
+  569  git checkout master2
+  570  ls
+  571  git merge master
+  572  ls
+  573  git pull
+  574  git pull origin master2
+  575  git fetch
+  576  git merge origin/master2
+  577  git fetch remote-origin
+  578  git fetch origin
+  579  git pull
+  580  git pull -u origin master2
+  581  git push -u origin master2
+  582  git pull
+  583  ls
+  584  git checkout
+  585  git checkout masters
+  586  git checkout master
+  587  git branch -r
+  588  git checkout master2
+  589  git push origin --delete master2
+  590  git branch -r
+  591  git branch 
+  592  history>day3_history.txt
