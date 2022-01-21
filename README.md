@@ -1,2 +1,2 @@
-# hrushi
-used for a test trail for my self
+# Hrushi
+This repos used to study Git 
