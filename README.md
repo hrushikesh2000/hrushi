@@ -1,3 +1,3 @@
 # Hrushi
-This repos used to study Git 
-this line added to test azure devops pulling
+This repos used to study Git <br/>
+This line added to test azure devops pulling
