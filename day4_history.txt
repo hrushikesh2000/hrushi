@@ -1,0 +1,206 @@
+    1  pwd
+    2  cd c:\ Users
+    3  cd c: Users
+    4  cd Users
+    5  ls
+    6  cd c:\Users
+    7  ls
+    8  cd ADMIN
+    9  cd project
+   10  cd day1
+   11  git branch
+   12  git clone "https://github.com/bradtraversy/50projects50days/tree/master/animated-countdown"
+   13  git status
+   14  git add file6.txt
+   15  git commit -m "day3 added a file"
+   16  git status
+   17  git remote
+   18  git remote add "https://github.com/hrushikesh2000"
+   19  git remote add origin "https://github.com/hrushikesh2000"
+   20  git remote -v
+   21  git push help
+   22  git push --help
+   23  git push -u origin master
+   24  git remote add origin "https://github.com/hrushikesh2000/trail"
+   25  git remote rm "https://github.com/hrushikesh2000/trail"
+   26  git remote rm origin "https://github.com/hrushikesh2000"
+   27  git remote remove origin
+   28  git remote add origin "https://github.com/hrushikesh2000/trail"
+   29  git push -u origin master
+   30  git branch
+   31  git branch -r
+   32  git branch -a
+   33  git remote remove origin
+   34  git remote add origin "https://github.com/hrushikesh2000/hrushi"
+   35  git push -u origin master
+   36  git reflog --oneline
+   37  git reflog --oneline -5
+   38  cd..
+   39  cd ..
+   40  mkdir docker
+   41  cd docker
+   42  cd ..
+   43  rm docker
+   44  git remove docker
+   45  git clone https://github.com/matthewvarga/nginx-docker-webapps.git docker
+   46  ls
+   47  cd docker
+   48  ls
+   49  ls
+   50  cd ..
+   51  git clone https://github.com/docker-training/webapp.git docker
+   52  ls
+   53  git show head
+   54  cat .git/head
+   55  cd day1
+   56  cat .git/head
+   57  git reflog --oneline -2
+   58  git branch
+   59  git remote
+   60  ls
+   61  cd file.txt
+   62  show file.txt
+   63  code file.txt
+   64  git status
+   65  code file1.txt
+   66  git status
+   67  git commit -am "som changes"
+   68  git status
+   69  git reflog --oneline -2
+   70  cat .git/config
+   71  code .git/config
+   72  git fetch origin
+   73  git commit -am "check Fetch"
+   74  git fetch origin
+   75  git fetch origin
+   76  git fetch origin  master
+   77  gir log --oneline -5
+   78  git log --oneline -5
+   79  git reflog --oneline -5
+   80  git remote
+   81  git remote -help
+   82  git log file2.txt
+   83  git blame file2.txt
+   84  git tag v1.0
+   85  git reflog --oneline -5
+   86  git tag -d to
+   87  git reflog --oneline -5
+   88  git tag "v to check fetch"
+   89  git tag tocheckfetch
+   90  git reflog --oneline -5
+   91  git tag -d tocheckfetch
+   92  git reflog --oneline -5
+   93  git log --oneline -5 origin
+   94  git log --oneline -5 origin/master
+   95  git log --oneline  origin/master
+   96  git reflog --oneline -5
+   97  git log --oneline  master/origin
+   98  git diff origin/master..master
+   99  git push
+  100  git fetch origin
+  101  git merge origin master
+  102  git pull origin master
+  103  cat .gitignore/head
+  104  cat .git/head
+  105  git reflog --oneline -3
+  106  git push
+  107  git push origin master
+  108  git push
+  109  git pull
+  110  git push
+  111  git pull origin master
+  112  git push
+  113  git commit -am "file2 prob"
+  114  git pull origin master
+  115  git push
+  116  git diff master..origin
+  117  git diff master--origin
+  118  git commit -am "file2 prob1"
+  119  git push
+  120  git pull
+  121  git commit -am "file3 dont change"
+  122  git push
+  123  git reflog --oneline -6
+  124  git log --oneline origin/master
+  125  git fetch
+  126  git log --oneline origin/master
+  127  git fetch
+  128  git pull
+  129  git status
+  130  git status
+  131  git commit -am "file5 dont change"
+  132  git fetch
+  133  git fetch origin master
+  134  git fetch master
+  135  git fetch origin
+  136  git status
+  137  git commit -am "file5 dont change again"
+  138  git fetch origin master
+  139  git log --oneline origin/master
+  140  git fetch origin
+  141  git pull 
+  142  git push
+  143  git pull 
+  144  git status
+  145  git branch
+  146  git checkout master2
+  147  ls
+  148  git merge master
+  149  ls
+  150  git pull
+  151  git pull origin master2
+  152  git fetch
+  153  git merge origin/master2
+  154  git fetch remote-origin
+  155  git fetch origin
+  156  git pull
+  157  git pull -u origin master2
+  158  git push -u origin master2
+  159  git pull
+  160  ls
+  161  git checkout
+  162  git checkout masters
+  163  git checkout master
+  164  git branch -r
+  165  git checkout master2
+  166  git push origin --delete master2
+  167  git branch -r
+  168  git branch 
+  169  history>day3_history.txt
+  170  git checkout master
+  171  git status
+  172  git checkout master2
+  173  git checkout master
+  174  git commit -am "added history"
+  175  git commit -ma "added history"
+  176  git status
+  177  git add day3_history.txt
+  178  git status
+  179  git commit-m "added history"
+  180  git status
+  181  git commit -m "added history"
+  182  git fetch
+  183  git push -u origin
+  184  exit
+  185  git version
+  186  git reflogs
+  187  git reflog
+  188  clear
+  189  git branch
+  190  git branch -r
+  191  git branch
+  192  git checkout master2
+  193  ls
+  194  git checkout master
+  195  ls
+  196  git checkout master2
+  197  git branch --unset-upstream
+  198  git branch -r
+  199  git pull
+  200  git checkout master
+  201  git pull
+  202  git branch -r
+  203  git pull
+  204  git push
+  205  git
+  206  history>day4_history.txt
