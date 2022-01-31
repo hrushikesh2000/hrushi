@@ -1,0 +1,125 @@
+    1  ls
+    2  git clone https://SESA653976@dev.azure.com/SESA653976/Sample/_git/Hrushi_Github_Repos
+    3  cd Hrushi_Github_Repos
+    4  git branch
+    5  git branch -r
+    6  git reflog -5
+    7  git config --global user.name "Paluru Hrushikesh"
+    8  [200~git config --global user.email SESA653976@se.com
+    9  git config --global user.email SESA653976@se.com
+   10  git config --global core.editor visualstudiocode
+   11  git config --global -e
+   12  git config --global -e
+   13  code file1.txt
+   14  git config --global core.editor "code --wait"
+   15  git config --global -e
+   16  git config --global -e
+   17  git config --global core.editor "code --wait"
+   18  git config --global -e
+   19  git config --global core.editor "code --wait"
+   20  git config --global -e
+   21  git config --global -e
+   22  cd ..
+   23  mkdir git_training
+   24  cd git_training
+   25  git init
+   26  git config --global user.name "Paluru Hrushikesh"
+   27  git config --global user.email SESA653976@se.com
+   28  git config --global core.editor "code --wait"
+   29  git config --global -e
+   30  git config --global -e
+   31  git config --global core.editor "code --wait"
+   32  git config --global core.editor "'visual studio code' -n -w"
+   33  git config --global -e
+   34  code file1.txt
+   35  git config --global core.editor 'visual studio code' -n -w
+   36  git config --global diff.tool code
+   37  git config --global difftool.code.cmd “code --wait --diff $LOCAL $REMOTE”
+   38  git config --global difftool.code “code --wait --diff $LOCAL $REMOTE”
+   39  git config --global -e
+   40  git config --global core.editor 'visual studio code' 
+   41  git config --global -e
+   42  clear
+   43  git config --global core.editor "code -w"
+   44  git config --global -e
+   45  git config --global core.editor "code --wait"
+   46  git config --global -e
+   47  code file1.txt
+   48  cd ..
+   49  cd Hrushi_Github_Repos/
+   50  git status
+   51  git remote 
+   52  git branch -r
+   53  git push
+   54  git status
+   55  git add .
+   56  git commit -m "new change in file2"
+   57  git push
+   58  git log
+   59  git config --global -e
+   60  git config --global -e
+   61  git config --global core.editor "code --wait"
+   62  code file1.txt
+   63  git branch
+   64  git branch -r
+   65  giti fetch
+   66  git fetch
+   67  git add .
+   68  git commit -m "added to azure right"
+   69  git push
+   70  git show head
+   71  git show head~1
+   72  code file1.txt
+   73  code file1.txt
+   74  git checkout master2
+   75  git checkout master
+   76  git st
+   77  git add .
+   78  git commit -m "file 1 changed"
+   79  git checkout master2
+   80  git add .
+   81  git commit -m "file 1 changed again"
+   82  git checkout master
+   83  git merge master2
+   84  git status
+   85  git add file1.txt file2.txt
+   86  git commit -m "merge conflict over"
+   87  git reflog -5
+   88  git tag co_master2 285ee83
+   89  git tag merge_solved
+   90  git reflog -3
+   91  git reflog -5
+   92  git push 
+   93  git co master2
+   94  git push
+   95  git push origin master2
+   96  git show b91b8632
+   97  git merge master
+   98  git push origin master2
+   99  git add file7.txt
+  100  git commit -m "added a new file"
+  101  git co master
+  102  git merge master2
+  103  git st
+  104  code file7.txt
+  105  git st
+  106  git add .
+  107  giti status -m"modified file7.txt"
+  108  git status -m"modified file7.txt"
+  109  git status -m "modified file7.txt"
+  110  git commit -m "modified file7.txt"
+  111  git push
+  112  git co master2
+  113  git pull
+  114  git pull origin master2
+  115  git pull origin master
+  116  git co master
+  117  git merge master2
+  118  git st
+  119  git reflog -4
+  120  git reflog -9
+  121  git push
+  122  git tag v0.1
+  123  git reflog -9
+  124  git push
+  125  history> day8_history.txt
